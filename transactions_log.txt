@@ -26,3 +26,10 @@ Müşteri ID: 15737452 - [2025-03-03 01:58:53] ✅ İşlem Başarılı!
 📥 Alıcı ID: 15699309
 📅 İşlem Tarihi: Güncel.
 🔔 İşlem detayları için hesap ekstrenizi kontrol edebilirsiniz.
+Müşteri ID: 15619304 - [2025-03-03 02:50:29] 10000.0 USD gönderildi → 15568982
+Müşteri ID: 15619304 - [2025-03-03 02:50:29] ✅ İşlem Başarılı!
+💸 Transfer Edilen Tutar: $10,000.00 USD
+📤 Gönderici ID: 15619304
+📥 Alıcı ID: 15568982
+📅 İşlem Tarihi: Güncel.
+🔔 İşlem detayları için hesap ekstrenizi kontrol edebilirsiniz.
