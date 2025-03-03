@@ -6,3 +6,4 @@ pydantic
 pandas
 requests
 streamlit
+langgraph
