@@ -7,6 +7,10 @@ import uvicorn
 app = FastAPI()
 workflow = build_workflow().compile()
 
+@app.get("/")
+def home():
+    return {"message": "Welcome to the Banking Chatbot API!"}
+
 class UserMessage(BaseModel):
     customer_id: int
     message: str
