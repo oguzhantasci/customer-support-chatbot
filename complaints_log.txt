@@ -1,3 +1,4 @@
 Müşteri ID: 15634602 - Şikayet: Kartım kayboldu.
 Müşteri ID: 15634602 - Şikayet: [2025-03-03 01:01:01] kartım bloke oldu.
 Müşteri ID: 15737452 - Şikayet: [2025-03-03 01:59:10] Kartım bloke oldu.
+Müşteri ID: 15634602 - Şikayet: [2025-03-03 11:09:29] Kartım kayboldu.

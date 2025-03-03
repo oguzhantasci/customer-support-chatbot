@@ -1,5 +1,5 @@
 RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Exited,Complain,Satisfaction Score,Card Type,Point Earned
-1,15634602,Hargrave,619,France,Female,42,2,3800.0,1,1,1,101348.88,1,1,2,DIAMOND,464
+1,15634602,Hargrave,619,France,Female,42,2,1700.0,1,1,1,101348.88,1,1,2,DIAMOND,464
 2,15647311,Hill,608,Spain,Female,41,1,79807.86,1,0,1,112542.58,0,1,3,DIAMOND,456
 3,15619304,Onio,502,France,Female,42,8,149660.8,3,1,0,113931.57,1,1,3,DIAMOND,377
 4,15701354,Boni,699,France,Female,39,1,2400.0,2,0,0,93826.63,0,0,5,GOLD,350
@@ -24,9 +24,9 @@ RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,Num
 23,15699309,Gerasimov,510,Spain,Female,38,4,5000.0,1,1,0,118913.53,1,1,2,DIAMOND,887
 24,15725737,Mosman,669,France,Male,46,3,2100.0,2,0,1,8487.75,0,0,2,SILVER,665
 25,15625047,Yen,846,France,Female,38,5,2000.0,1,1,1,187616.16,0,0,3,PLATINUM,225
-26,15738191,Maclean,577,France,Male,25,3,0.0,2,0,1,124508.29,0,0,3,PLATINUM,659
+26,15738191,Maclean,577,France,Male,25,3,2000.0,2,0,1,124508.29,0,0,3,PLATINUM,659
 27,15736816,Young,756,Germany,Male,36,2,136815.64,1,1,1,170041.95,0,0,5,DIAMOND,236
-28,15700772,Nebechi,571,France,Male,44,9,0.0,2,0,0,38433.35,0,0,4,PLATINUM,448
+28,15700772,Nebechi,571,France,Male,44,9,100.0,2,0,0,38433.35,0,0,4,PLATINUM,448
 29,15728693,McWilliams,574,Germany,Female,43,3,141349.43,1,1,1,100187.43,0,0,5,DIAMOND,499
 30,15656300,Lucciano,411,France,Male,29,0,59697.17,2,1,1,53483.21,0,0,2,GOLD,343
 31,15589475,Azikiwe,591,Spain,Female,39,3,0.0,3,1,0,140469.38,1,1,3,DIAMOND,298
