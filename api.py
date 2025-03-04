@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from workflow import build_workflow
 from langchain.schema import HumanMessage, AIMessage
 import uvicorn
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 workflow = build_workflow().compile()
@@ -14,6 +15,15 @@ def home():
 class UserMessage(BaseModel):
     customer_id: int
     message: str
+
+# CORS settings to allow requests from your frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://oguzhantasci.github.io"],  # GitHub Pages URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/chat/")
 async def chat(user_msg: UserMessage):
