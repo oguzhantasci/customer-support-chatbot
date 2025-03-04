@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking Chatbot</title>
+</head>
+<body>
+    <h2>Banking Chatbot</h2>
+    <input type="text" id="customer_id" placeholder="Müşteri ID">
+    <textarea id="message" placeholder="Mesajınızı yazın..."></textarea>
+    <button onclick="sendMessage()">Gönder</button>
+    <div id="response"></div>
+
+    <script>
+        async function sendMessage() {
+            const customerId = document.getElementById("customer_id").value;
+            const message = document.getElementById("message").value;
+
+            const response = await fetch("https://customer-support-chatbot-ryuu.onrender.com", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ customer_id: parseInt(customerId), message })
+            });
+
+            const data = await response.json();
+            document.getElementById("response").innerText = "Bot: " + data.response;
+        }
+    </script>
+</body>
+</html>
