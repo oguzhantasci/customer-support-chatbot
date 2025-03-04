@@ -15,7 +15,7 @@
             const customerId = document.getElementById("customer_id").value;
             const message = document.getElementById("message").value;
 
-            const response = await fetch("https://customer-support-chatbot-ryuu.onrender.com", {
+            const response = await fetch("https://customer-support-chatbot-ryuu.onrender.com/chat/", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ customer_id: parseInt(customerId), message })
